@@ -67,7 +67,7 @@ Tools
 
 ## GitHub Activity
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Surya2004-janardhan&theme=github-compact&hide_border=true)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SuryaJanardhan&theme=github-compact&hide_border=true)
 
 ## Connect
 
@@ -79,4 +79,3 @@ Tools
 
 ## Never mind
 https://suryajanardhan.github.io/Surya-Janardhan/
-
