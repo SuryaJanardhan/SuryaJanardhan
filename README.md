@@ -4,7 +4,6 @@ A CS student who builds things end-to-end from schema design to deployment. I sp
 
 ![GIF](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2FhZ2I3czFrY3p4emowd2tiM3NiaHlmOXhuOG1yc3BjZ25obzI3OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ws6T5PN7wHv3cY8xy8/giphy.gif)
 
-Into - [GroHubz](https://grohubz.com)
 
 ## 4 Bits
 
