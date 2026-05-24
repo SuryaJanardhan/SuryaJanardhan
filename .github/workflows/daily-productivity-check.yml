@@ -102,7 +102,138 @@ jobs:
           secure: true
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: "No commits yet for ${{ env.TODAY }}"
+          subject: "⚠️ Productivity Alert: No commits on ${{ env.TODAY }}"
           to: chintalajanardhan2004@gmail.com
           from: ${{ secrets.EMAIL_USERNAME }}
-          body: "Hey ${{ github.repository_owner }} — no commits were detected for ${{ env.TODAY }}. Please push at least one commit."
+          headers: |
+            Content-Type: text/html; charset=UTF-8
+          body: |
+            <!DOCTYPE html>
+            <html>
+            <head>
+              <meta charset="UTF-8">
+              <style>
+                body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #f5f5f5;
+                  margin: 0;
+                  padding: 0;
+                }
+                .container {
+                  max-width: 600px;
+                  margin: 20px auto;
+                  background-color: #ffffff;
+                  border-radius: 8px;
+                  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                  overflow: hidden;
+                }
+                .header {
+                  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                  color: white;
+                  padding: 30px;
+                  text-align: center;
+                }
+                .header h1 {
+                  margin: 0;
+                  font-size: 24px;
+                  font-weight: 600;
+                }
+                .header p {
+                  margin: 8px 0 0 0;
+                  font-size: 14px;
+                  opacity: 0.9;
+                }
+                .content {
+                  padding: 30px;
+                  color: #333;
+                }
+                .greeting {
+                  font-size: 16px;
+                  margin-bottom: 20px;
+                }
+                .alert-box {
+                  background-color: #fff3cd;
+                  border-left: 4px solid #ffc107;
+                  padding: 15px;
+                  margin: 20px 0;
+                  border-radius: 4px;
+                }
+                .alert-box p {
+                  margin: 0;
+                  color: #856404;
+                  font-weight: 500;
+                }
+                .stats {
+                  background-color: #f8f9fa;
+                  padding: 15px;
+                  border-radius: 4px;
+                  margin: 20px 0;
+                  text-align: center;
+                }
+                .stats-number {
+                  font-size: 28px;
+                  font-weight: bold;
+                  color: #667eea;
+                }
+                .stats-label {
+                  font-size: 12px;
+                  color: #666;
+                  text-transform: uppercase;
+                  letter-spacing: 0.5px;
+                }
+                .cta {
+                  background-color: #667eea;
+                  color: white;
+                  padding: 12px 30px;
+                  border-radius: 4px;
+                  text-align: center;
+                  margin: 20px 0;
+                  display: inline-block;
+                  text-decoration: none;
+                  font-weight: 500;
+                }
+                .footer {
+                  background-color: #f8f9fa;
+                  padding: 20px;
+                  text-align: center;
+                  font-size: 12px;
+                  color: #666;
+                  border-top: 1px solid #e9ecef;
+                }
+              </style>
+            </head>
+            <body>
+              <div class="container">
+                <div class="header">
+                  <h1>⚠️ Productivity Check</h1>
+                  <p>Daily Activity Report</p>
+                </div>
+                <div class="content">
+                  <div class="greeting">
+                    Hey <strong>${{ github.repository_owner }}</strong>,
+                  </div>
+                  <div class="alert-box">
+                    <p>🚨 No commits were detected for <strong>${{ env.TODAY }}</strong></p>
+                  </div>
+                  <p>
+                    This is an automated productivity reminder. It looks like you haven't pushed any commits today. 
+                    Remember, consistent contributions are key to building great things!
+                  </p>
+                  <div class="stats">
+                    <div class="stats-number">0</div>
+                    <div class="stats-label">Commits Today</div>
+                  </div>
+                  <p>
+                    Consider working on one of your projects or fixing that bug you've been thinking about. 
+                    Every commit counts! 💪
+                  </p>
+                </div>
+                <div class="footer">
+                  <p>This is an automated message sent by your productivity check workflow.</p>
+                  <p style="margin: 8px 0 0 0; font-size: 11px;">
+                    Last checked: ${{ env.END_UTC }}
+                  </p>
+                </div>
+              </div>
+            </body>
+            </html>
