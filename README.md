@@ -71,12 +71,18 @@ Tools
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SuryaJanardhan&theme=github-compact&hide_border=true)
 
 ## Connect
-
-<p>
-  <a href="mailto:chintalajanardhan2004@example.com"><img src="https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white&style=flat-square" /></a>
+<p align="left">
+  <a href="mailto:chintalajanardhan2004@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" alt="Email" height="40" />
+  </a>
   &nbsp;
-  <a href="https://linkedin.com/in/surya-janardhan-chintala-a19403254"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat-square" /></a>
+  <a href="https://linkedin.com/in/surya-janardhan-chintala-a19403254">
+    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40" />
+  </a>
+  &nbsp;
+  <a href="https://www.instagram.com/surya_janardhann/">
+    <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" height="40" />
+  </a>
 </p>
-
 ## Never mind
 https://suryajanardhan.github.io/Surya-Janardhan/
