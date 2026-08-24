@@ -2,7 +2,7 @@ name: Daily productivity check
 
 on:
   schedule:
-    - cron: "15 18 * * *" # daily at 18:15 UTC (23:45 IST)
+   # - cron: "15 18 * * *" # daily at 18:15 UTC (23:45 IST)
   workflow_dispatch: {}
 
 permissions:
