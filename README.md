@@ -66,12 +66,6 @@ Tools
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=flat-square)
 
 
-## GitHub Activity
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SuryaJanardhan&theme=github-dark&hide_border=true)
-
-![GitHub Contribution Chart (Fallback)](https://ghchart.rshah.org/SuryaJanardhan)
-
 ## Connect
 <p align="left">
   <a href="mailto:chintalajanardhan2004@gmail.com">
