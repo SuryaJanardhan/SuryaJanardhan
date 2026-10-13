@@ -68,7 +68,9 @@ Tools
 
 ## GitHub Activity
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SuryaJanardhan&theme=github-compact&hide_border=true)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SuryaJanardhan&theme=github-dark&hide_border=true)
+
+![GitHub Contribution Chart (Fallback)](https://ghchart.rshah.org/SuryaJanardhan)
 
 ## Connect
 <p align="left">
