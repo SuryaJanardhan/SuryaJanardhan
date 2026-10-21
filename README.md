@@ -9,7 +9,7 @@ I feel happy when my tests go green and the output is what I expected. I'm a hum
 ## 4 Bits
 
 - Comfortable across the stack [frontend, backend, databases, and infra]
-- Lately deep in LLM agents, RAG pipelines, and agentic workflows
+- Into LLM agents, RAG pipelines, and agentic workflows
 - Have shipped projects that are actually running, not just sitting on local
 - Open to collaborating on something worth building
 
